@@ -5,7 +5,10 @@ public void setup()
   {
     double dNum = Double.parseDouble(e.substring(i,i+10));
     if (isPrime(dNum) == true)
+    {
       System.out.println(dNum);
+      break;
+    }
   }
 } 
 public boolean isPrime(double dNum)  
